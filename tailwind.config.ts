@@ -11,9 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        black: "#000000", // Ensure you have black defined if using CSS variables
       },
     },
   },
   plugins: [],
 };
+
 export default config;
