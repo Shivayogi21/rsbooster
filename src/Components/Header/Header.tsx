@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import menuData from "./menuData"; 
+import "./Header.css"
 
 
 interface SubmenuItem {
@@ -51,10 +52,10 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`header left-0 top-0 z-40 flex w-full items-center bg-black text-white group-hover:text-purple-500`}
+      className={`header flex  w-full items-center  text-white`}
     >
       <div className="container">
-        <div className="relative -mx-4 flex items-center justify-between">
+        <div className="relative flex items-center justify-between">
           <div className="w-60 max-w-full px-6 xl:mr-2">
             <Link
               href="/"
@@ -142,7 +143,7 @@ const Header: React.FC = () => {
                               <Link
                                 href={submenuItem.path}
                                 key={submenuItem.id}
-                                className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
+                                className="block rounded py-2.5 text-sm bg-black text-white hover:text-primary dark:text-white dark:hover:text-dark lg:px-3"
                               >
                                 {submenuItem.title}
                               </Link>
@@ -155,23 +156,20 @@ const Header: React.FC = () => {
                 </ul>
               </nav>
             </div>
-            <div className="flex items-center justify-end pr-16 lg:pr-0">
-              <Link
-                href="/signin"
-                className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
-              >
-                Sign In
-              </Link>
-              <Link
-                href="/signup"
-                className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-dark transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
-              >
-                Sign Up
-              </Link>
-              <div>
-               
-              </div>
-            </div>
+            <div className="flex items-center justify-end pr-16 lg:pr-0 hidden md:block">
+  <Link
+    href="/signin" 
+    className="animated-button4 hidden sm:block h-6 text-xs px-4 py-4 text-center font-medium text-dark hover:opacity-70 dark:text-white"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    Sign In
+  </Link>
+  
+</div>
+
           </div>
         </div>
       </div>
