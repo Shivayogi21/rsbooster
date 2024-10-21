@@ -36,7 +36,7 @@ export function GlobeDemo() {
 
   return (
     
-          <div className="w-full  sm:h-[60vh] ">
+          <div className="w-full h-[60vh] ">
             <World data={sampleArcs} globeConfig={globeConfig} />
           </div>
         
