@@ -19,20 +19,15 @@ export function AnimatedTooltipPreview() {
           Welcome To RSB
         </h1>
           <p className='mt-5 text-lg text-neutral-200'>
-            A diverse group of professionals passionate about healthcare and committed to excellence. 
-            Our team comprises certified medical coders, billing experts, financial analysts, and healthcare
-            consultants, each bringing a wealth of experience and expertise to the table. Together,
-            we work cohesively, driven by a shared goal
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus debitis porro natus neque, temporibus libero. Quas voluptatem harum qui doloribus reprehenderit! Quis tenetur, illum facere sit facilis a distinctio!
           </p>
         </div>
         <div className="flex flex-row items-center justify-center mb-10 w-full mt-12">
           <AnimatedTooltip items={people} />
         </div>
-        <div className='max-w-4xl mx-auto px-2 md:px-6'>
+        <div className='max-w-4xl mx-auto '>
           <p className='mt-5 text-lg text-neutral-200'>
-            A diverse group of professionals passionate about healthcare and committed to excellence. 
-            Our team comprises certified medical coders, billing experts, financial analysts, and healthcare
-            consultants, each bringing a wealth of experience and expertise to the table  healthcare
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad voluptate aspernatur blanditiis modi voluptatum, magnam molestiae provident suscipit? Voluptates modi sit quis numquam ex beatae.
           </p>
         </div>
       </div>
