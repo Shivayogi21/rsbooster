@@ -18,7 +18,7 @@ export function AnimatedTooltipPreview() {
         <h1 className='text-4xl font-bold text-center mb-6'>
           Welcome To RSB
         </h1>
-          <p className='text-sm md:text-xl text-gray-300 leading-relaxed mb-10 px-2 md:px-6'>
+          <p className='mt-5 text-lg text-neutral-200'>
             A diverse group of professionals passionate about healthcare and committed to excellence. 
             Our team comprises certified medical coders, billing experts, financial analysts, and healthcare
             consultants, each bringing a wealth of experience and expertise to the table. Together,
@@ -29,7 +29,7 @@ export function AnimatedTooltipPreview() {
           <AnimatedTooltip items={people} />
         </div>
         <div className='max-w-4xl mx-auto px-2 md:px-6'>
-          <p className='text-sm md:text-xl text-gray-300 leading-relaxed'>
+          <p className='mt-5 text-lg text-neutral-200'>
             A diverse group of professionals passionate about healthcare and committed to excellence. 
             Our team comprises certified medical coders, billing experts, financial analysts, and healthcare
             consultants, each bringing a wealth of experience and expertise to the table  healthcare

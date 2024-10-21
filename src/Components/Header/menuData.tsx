@@ -31,8 +31,8 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Contact",
-    path: "/contact",
+    title: "Resources",
+    path: "/resource",
     newTab: false,
   },
   {
@@ -42,52 +42,30 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 41,
-        title: "About Page",
-        path: "/about",
+        title: "Service1",
+        path: "/Service",
         newTab: false,
       },
       {
         id: 42,
-        title: "Contact Page",
-        path: "/contact",
+        title: "Service2",
+        path: "/Service",
         newTab: false,
       },
       {
         id: 43,
-        title: "Blog Grid Page",
-        path: "/blog",
+        title: "Service3",
+        path: "/Service",
         newTab: false,
       },
       {
         id: 44,
-        title: "Blog Sidebar Page",
-        path: "/blog-sidebar",
+        title: "Service4",
+        path: "/Service",
         newTab: false,
       },
-      {
-        id: 45,
-        title: "Blog Details Page",
-        path: "/blog-details",
-        newTab: false,
-      },
-      {
-        id: 46,
-        title: "Sign In Page",
-        path: "/signin",
-        newTab: false,
-      },
-      {
-        id: 47,
-        title: "Sign Up Page",
-        path: "/signup",
-        newTab: false,
-      },
-      {
-        id: 48,
-        title: "Error Page",
-        path: "/error",
-        newTab: false,
-      },
+      
+      
     ],
   },
 ];

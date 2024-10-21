@@ -158,14 +158,14 @@ const Header: React.FC = () => {
             </div>
             <div className="flex items-center justify-end pr-16 lg:pr-0 hidden md:block">
   <Link
-    href="/signin" 
+    href="/contact" 
     className="animated-button4 hidden sm:block h-6 text-xs px-4 py-4 text-center font-medium text-dark hover:opacity-70 dark:text-white"
   >
     <span></span>
     <span></span>
     <span></span>
     <span></span>
-    Sign In
+    Contact
   </Link>
   
 </div>
