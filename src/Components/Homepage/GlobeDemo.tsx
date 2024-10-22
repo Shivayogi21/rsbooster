@@ -3,6 +3,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import { sampleArcs } from "@/data/Samplearcs";
+import HeroSection from "./StarBackgroun";
+
 
 const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
   ssr: false,
@@ -35,10 +37,11 @@ export function GlobeDemo() {
   
 
   return (
-    
-          <div className="w-full h-[60vh] ">
+    <>
+          <div className="w-full h-[60vh]">
             <World data={sampleArcs} globeConfig={globeConfig} />
           </div>
+          </>
         
   );
   
