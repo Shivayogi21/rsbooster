@@ -38,11 +38,13 @@ export function GlobeDemo() {
 
   return (
     <>
-          <div className="w-full h-[60vh]">
-            <World data={sampleArcs} globeConfig={globeConfig} />
-          </div>
-          </>
-        
+      <div className="flex justify-top items-center w-full h-screen">
+        <div className="w-[100vw] h-[60vh] sm:w-full sm:h-[60vh] md:w-full md:h-[70vh] lg:w-full lg:h-full">
+          <World data={sampleArcs} globeConfig={globeConfig} />
+        </div>
+        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-white to-black z-40" />
+      </div>
+    </>
   );
   
 }

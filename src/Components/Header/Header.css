@@ -17,6 +17,7 @@ body {
   .animated-button4 {
     background: linear-gradient(-30deg, #243d0b 50%, #1a2b08 50%);
     padding: 18px 16px;
+    padding-bottom: 28px;
     margin: 10px;
     border-radius: 4px;
     display: inline-block;
