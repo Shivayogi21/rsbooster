@@ -13,25 +13,24 @@ const people = [
 export function AnimatedTooltipPreview() {
   return (
     <>
-      <div className='text-white  mt-8 px-4 md:px-4 font-serif mt-10'>
-        <div className='max-w-4xl mx-auto'>
-        <h1 className='text-4xl font-bold text-center mb-6'>
+    <h1 className='text-4xl font-bold text-center my-12 font-serif'>
           Welcome To RSB
-        </h1>
-          <p className='mt-5 text-lg text-justify'>
-            Lorem ipsum, dolor sit amet consectetur Lorem ipsum dolor sit amet adipisicing elit. Alias delectus debitis porro natus neque, temporibus libero. Quas voluptatem harum qui doloribus reprehenderit! Quis tenetur, illum facere sit facilis a distinctio!
-   
-          </p>
+    </h1>
+    <p className='mt-5 text-lg text-justify lg:px-24 sm:px-6 mx-4 font-serif'>
+            Lorem ipsum, dolor sit amet consectetur Lorem ipsum dolor sit amet adipisicing elit. Alias delectus debitis porro natus neque, temporibus libero. Quas voluptatem harum qui doloribus reprehenderit! Quis tenetur, illum facere sit facilis a distinctio!  
+    </p>
+      <div className='text-white  mt-8 px-4 md:px-4 font-serif mt-10 '>
+        <div className='max-w-4xl mx-auto'>
         </div>
-        <div className="flex flex-row items-center justify-center mb-10 w-full mt-12">
+        <div className="flex flex-row items-center justify-center mb-10 w-full mt-12 ">
           <AnimatedTooltip items={people} />
         </div>
         <div className='max-w-4xl mx-auto text-justify'>
-          <p className='mt-5 text-lg '>
-            Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet adipisicing elit. Ad voluptate aspernatur blanditiis modi voluptatum, magnam molestiae provident suscipit? Voluptates modi sit quis numquam ex beatae.facere sit facilis a distinctio!
-          </p>
         </div>
       </div>
+      <p className='mt-5 text-lg text-justify lg:px-24 sm:px-6 mx-4 font-serif'>
+            Lorem ipsum, dolor sit amet consectetur Lorem ipsum dolor sit amet adipisicing elit. Alias delectus debitis porro natus neque, temporibus libero. Quas voluptatem harum qui doloribus reprehenderit! Quis tenetur, illum facere sit facilis a distinctio!  
+    </p>
     </>
   );
 }

@@ -54,7 +54,7 @@ const Header: React.FC = () => {
     <header
       className={`header flex  w-full items-center  text-white`}
     >
-      <div className="container">
+      <div className="container font-serif">
         <div className="relative flex items-center justify-between">
           <div className="w-60 max-w-full px-6 xl:mr-2">
             <Link

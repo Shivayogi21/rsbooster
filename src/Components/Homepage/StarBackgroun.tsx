@@ -4,7 +4,7 @@ import { GlobeDemo } from './GlobeDemo'; // Import your GlobeDemo component
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[80vh] text-white overflow-hidden">
+    <section className="relative w-full h-[80vh] text-white overflow-hidden font-serif">
       <div className="absolute inset-0">
         <div className="star-background"></div>
       </div>
@@ -17,10 +17,10 @@ const HeroSection = () => {
 
       <div className="container relative z-20 flex flex-col items-center justify-center h-full">
         <div className="text-center">
-          <h1 className="text-2xl md:text-9xl font-bold mb-6 text-transparent gap-20 heading ">
+          <h1 className="text-2xl md:text-9xl font-bold mb-6 text-transparent gap-20 heading font-serif">
             R S B
           </h1>
-          <h4 className="text-3xl  mb-5 font-bold font-serif text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500 shadow-lg">
+          <h4 className="text-3xl  mb-5 font-bold font-serif text-white">
             Revenue Service Booster
           </h4>
           <h4 className="text-lg mb-5 md:px-32 text-gray-200 shadow-md p-4 text-justify">

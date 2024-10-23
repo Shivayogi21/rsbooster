@@ -1,0 +1,30 @@
+.newsletter-container {
+  position: relative;
+  z-index: 0;
+}
+
+.newsletter-container::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 1rem;
+  background: linear-gradient(45deg, #000, #444);
+  background-size: 400% 400%;
+  z-index: -1;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -10,7 +10,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/**/*.{ts,tsx}", 
+    "./src/**/*.{ts,tsx}",
   ],
   darkMode: "class",
   theme: {
@@ -23,6 +23,7 @@ const config: Config = {
       animation: {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        zoomInOut: 'zoomInOut 5s ease-in-out infinite',
       },
       keyframes: {
         scroll: {
@@ -30,6 +31,15 @@ const config: Config = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        zoomInOut: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.05)' },
+        },
+      },
+      fontFamily: {
+        serif: ["Times New Roman", "Georgia", "Cambria", "Garamond", "Baskerville", "Palatino Linotype", "Merriweather", "Serifa", "Bookman", "New Times Roman", "Tisa"],
+        sans: ["Arial", "Helvetica Neue", "Verdana", "Tahoma", "Trebuchet MS", ...defaultTheme.fontFamily.sans],
+        mono: ["Courier New", "Lucida Console", "Monaco", ...defaultTheme.fontFamily.mono],
       },
     },
   },
